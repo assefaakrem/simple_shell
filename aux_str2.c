@@ -2,7 +2,8 @@
 
 /**
  * _strdup - duplicates a str in the heap memory.
- * @s: Type char pointer str
+ * @s: Type char string
+ * pointer str
  * Return: duplicated str
  */
 char *_strdup(const char *s)
