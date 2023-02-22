@@ -1,4 +1,4 @@
-#include "main.h"
+#include "shell.h"
 
 /**
  * swap_char - swaps | and & for non-printed chars
@@ -207,5 +207,6 @@ char **split_line(char *input)
 		token = _strtok(NULL, TOK_DELIM);
 		tokens[i] = token;
 	}
+
 	return (tokens);
 }
