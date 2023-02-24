@@ -2,7 +2,7 @@
 
 /**
  * get_builtin - builtin that paus the command in the arg
- * @cmd: command
+ * @cmd:  command
  * Return: function pointer of the builtin command
  */
 int (*get_builtin(char *cmd))(data_shell *)
